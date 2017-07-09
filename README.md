@@ -11,7 +11,7 @@ This bot does a few things for your subreddit:
 commands used by mobile users.
 
 
-NOTE THAT MODERATORS ARE EXEMPT BY DEFAULT TO AVOID CONFUSION. IF YOU WANT TO TEST THE BOT OUT, YOU WILL HAVE TO DO SO ON AN ALT.
+**Note that moderators are exempt by default to avoid confusion. If you want to test the bot out, you will have to do so on an alt.**
 
 # How do I set it up?
 
