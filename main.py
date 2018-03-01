@@ -80,7 +80,7 @@ def addPost(ident, timec, parId, isRem):
     timec = "'" + timec + "'"
     parId = "'" + parId + "'"
     isRem = "'" + isRem + "'"
-    c.execute('''INSERT INTO rposts VALUES ({}, {}, {}, {})'''.format(ident, timec, parId ,isRem))
+    c.execute('''INSERT INTO rposts VALUES (?, ?, ?, ?)''', (ident, timec, parId, isRem))
     
 
 #delete all posts (only used for bugfixing)
