@@ -76,10 +76,6 @@ def listAll():
   
 #add a post for the first time when removing it     
 def addPost(ident, timec, parId, isRem):
-    ident = "'" + ident + "'"
-    timec = "'" + timec + "'"
-    parId = "'" + parId + "'"
-    isRem = "'" + isRem + "'"
     c.execute('''INSERT INTO rposts VALUES ({}, {}, {}, {})'''.format(ident, timec, parId ,isRem))
     
 
